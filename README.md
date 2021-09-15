@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+<p align="center">
 
-First, run the development server:
+![image](demo/image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a simple Next.js portfolio template that's built with Tailwind CSS and TypeScript.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### What is built-in?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- ✅ Single page
+- ✅ Name, short introduction
+- ✅ Real-time Discord status with [Lanyard](https://github.com/Phineas/lanyard/)
+- ✅ Easily configurable information and social sections
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### How to install?
 
-## Learn More
+You'll need Node.js to install the required packages. Once you downloaded Node.js, you can follow these steps to run the website:
 
-To learn more about Next.js, take a look at the following resources:
+1. Open a terminal.
+   1. Run `git clone https://github.com/eggsy/personal-portfolio`
+   2. Go into directory `cd personal-portfolio`
+2. Install dependencies: `yarn`
+3. Run it in development mode: `yarn dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After that, you'll see that every change you make in any of the files under `src/` directory will be seen on the page. You can change the values in the files in `src/data/**` directory and customize the data displayed on the page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### My Discord data isn't there
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you're not familiar with Lanyard API yet, it's a project that basically reads your status via a bot. That means you have to share a server with that bot and it's currently only available in Lanyard's own Discord server. You have to join [this server](https://lanyard.rest/discord) to get your status visible.
