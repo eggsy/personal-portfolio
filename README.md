@@ -12,7 +12,7 @@ This is a simple Next.js portfolio template that's built with Tailwind CSS and T
 
 - ✅ Single page
 - ✅ Name, short introduction
-- ✅ Real-time Discord status with [Lanyard](https://github.com/Phineas/lanyard/)
+- ✅ Real-time Discord status (RPCs & Spotify) with [Lanyard](https://github.com/Phineas/lanyard/)
 - ✅ Easily configurable information and social sections
 
 ### How to install?
