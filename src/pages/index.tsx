@@ -11,7 +11,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="grid min-h-screen p-6 space-y-6 md:p-0 md:grid-cols-2">
+    <div className="grid min-h-screen p-6 space-y-6 md:space-y-0 md:p-0 md:grid-cols-2">
       <div className="flex items-center justify-center">
         <div className="space-y-4 md:space-y-10">
           <div>
