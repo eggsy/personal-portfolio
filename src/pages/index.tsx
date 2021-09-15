@@ -15,8 +15,8 @@ const Home: NextPage = () => {
       <div className="flex items-center justify-center">
         <div className="space-y-4 md:space-y-10">
           <div>
-            <h1 className="text-3xl font-semibold text-black md:text-6xl">
-              Hello, I am <span className="animate-pulse">Eggsy</span>
+            <h1 className="text-3xl font-semibold text-gray-800 md:text-6xl">
+              Hello, I am <span className="text-indigo-600">Eggsy</span>
             </h1>
             <h2 className="text-xl text-gray-500 md:text-3xl">
               Full-stack web developer
