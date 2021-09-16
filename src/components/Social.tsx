@@ -1,10 +1,7 @@
-/* Import types */
-import type { FC } from "react";
-
 /* Import socials data */
 import socials from "../data/socials";
 
-const Social: FC = () => {
+const Social: React.FC = () => {
   return (
     <>
       {socials.map((social, _) => {

@@ -2,13 +2,12 @@ import { useLanyard } from "react-use-lanyard";
 import Image from "next/image";
 
 /* Import types */
-import type { FC } from "react";
 import type { Activity } from "react-use-lanyard";
 
 /* Import data */
 import userId from "../data/user";
 
-const Status: FC = () => {
+const Status: React.FC = () => {
   const { loading, status } = useLanyard({
     userId,
     socket: true,

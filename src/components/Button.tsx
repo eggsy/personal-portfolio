@@ -1,4 +1,3 @@
-import { FC } from "react";
 import Link from "next/link";
 
 interface ButtonProps {
@@ -7,7 +6,7 @@ interface ButtonProps {
   variant?: string;
 }
 
-const Button: FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   href,
   target,
   variant = "normal",

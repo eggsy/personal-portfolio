@@ -1,10 +1,7 @@
-/* Import types */
-import type { FC } from "react";
-
 /* Import data */
 import information from "../data/information";
 
-const Information: FC = () => {
+const Information: React.FC = () => {
   return (
     <>
       {information.map((item, _) => (
