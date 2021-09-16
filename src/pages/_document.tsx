@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-class DocumentWithInter extends Document {
+class DocumentWithFont extends Document {
   render() {
     return (
       <Html>
@@ -20,4 +20,4 @@ class DocumentWithInter extends Document {
   }
 }
 
-export default DocumentWithInter;
+export default DocumentWithFont;
