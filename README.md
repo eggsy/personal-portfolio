@@ -30,3 +30,11 @@ After that, you'll see that every change you make in any of the files under `src
 ### My Discord data isn't there
 
 If you're not familiar with Lanyard API yet, it's a project that basically reads your status via a bot. That means you have to share a server with that bot and it's currently only available in Lanyard's own Discord server. You have to join [this server](https://lanyard.rest/discord) to get your status visible.
+
+### Sponsors
+
+<p align="center">
+  <a href="https://github.com/sponsors/eggsy">
+    <img src='https://cdn.jsdelivr.net/gh/eggsy/.github/sponsors.svg'/>
+  </a>
+</p>
